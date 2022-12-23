@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto',sans-serif;
+}
+.container{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(249, 202, 255, 0.601),rgba(226, 224, 224, 0.7)),url(pictures/background.jfif);
+    background-position:center;
+    background-size: cover;
+    padding-left:8%;
+    padding-right:8%;
+    box-sizing:border-box; 
+}
+.navbar{
+    height:8%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width:50px;
+    display: flex;
+    cursor:pointer;
+}
+.menu-icon{
+    width:30px;
+    cursor:pointer;
+    margin-left:40px;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul li{
+    list-style:none;
+    display: inline-block;
+    margin-left:60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 13px;
+}
+.row{
+    display: flex;
+    height:88%;
+    align-items:center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color:rgb(3, 3, 3);
+    stroke: rgb(61, 131, 192);
+    font-size: 100px;
+}
+p{
+    color:#fff;
+    text-shadow: rgb(8, 7, 7);
+    font-size: 20px;
+    line-height: 20px;
+}
+button{
+    width:180px;
+    color:#000;
+    font-size:12px;
+    font-family: 'Courier New', Courier, monospace;
+    padding:12px 0;
+    background:rgb(203, 144, 233);
+    border:0;
+    border-radius: 20px;
+    outline:none;
+    margin-top: 30px;
+}
+.card{
+    width:200px;
+    height:230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 12px 25px;
+    box-sizing: border-box;
+    cursor:pointer;
+    margin:10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5;
+}
+.men{
+    background-image: url(pictures/men.jfif);
+}
+.women{
+    background-image: url(pictures/women.jfif);
+}
+.kids{
+    background-image: url(pictures/kids.jfif);
+}
+.sarees{
+    background-image: url(pictures/sarees.jfif);
+
+}
+.card:hover{
+    transform:translateY(-15px);
+}
+h5{
+    color: rgb(5, 27, 40);
+    font-size: larger;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    color:black;
+    text-shadow: 0 0 15px rgb(0, 0, 0);
+    font-size: 15px;
+}

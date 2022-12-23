@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Document</title>
+        <style>
+            fieldset{
+                width: 20%;
+                background-color: rgb(174, 12, 243);
+            }
+            .form1{
+                display: flex;
+                width:100%;
+                height:100vh;
+                background-color: linen;
+                background-size: cover;
+                align-items: center;
+                justify-content: center;
+                margin-top: 15px;
+                color: rgb(0, 0, 0);
+            }
+
+            legend{
+                background-color: rgb(255, 255, 255);
+                text-align: center;
+                font-size: 30px;
+                border-radius: 20%;
+            }
+            .btn{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .btn > input{
+                margin-right: 20px;
+                margin-left: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="form1">
+            <fieldset>
+                <legend>LOGIN DETAILS</legend>
+                <form action="display.php" method="post">
+                    <lable>Name</lable> <input type="text" name="name"><br><br>
+                    <lable>Age</lable> <input type="text" name="rollno"><br><br>
+                    <lable>Phone</lable> <input type="number" name="phone"><br><br>
+                    
+                    <div class="btn">
+                    <input type="submit" value="LOGIN" name="login">
+                    <input type="submit" value="SKIP">
+                </div>
+                </form>
+            </fieldset>
+        </div>
+    </body>
+</html>
